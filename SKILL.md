@@ -20,6 +20,7 @@ If the model supports extended thinking, activate it for architecture decisions.
 - Python project → read `references/languages/python.md`
 - TypeScript / JavaScript project → read `references/languages/typescript.md`
 - Go project → read `references/languages/go.md`
+- Creating or modifying skills → read `references/skill-development.md`
 
 Load the relevant file before responding on that topic.
 Do not load files unless the task requires them.
@@ -191,7 +192,13 @@ Run before completing any coding task.
 - Apply sections 1–3 on every coding task without being asked.
 - Run section 4 checklist before completing any task.
 - Load the relevant `references/` file when the task involves git, testing,
-  performance, or a specific language.
+  performance, a specific language, or skill development.
+- **When loading or using a skill:**
+  - Read SKILL.md first (it's the contract)
+  - If `validation:` field exists, run it before using the skill
+  - If no validation script, do a basic smoke test
+  - If something doesn't work as documented, fix it before proceeding
+  - Never assume a skill works without verification
 - Flag issues with these prefixes:
   - **🔴 SECURITY** — explain why dangerous and show the fix.
   - **🟡 ARCHITECTURE** — name the pattern that resolves it.
