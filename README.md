@@ -1,6 +1,6 @@
 # Hardshell - OpenClaw Coding Standards
 
-**Version:** 3.0.0
+**Version:** 3.1.0
 
 A comprehensive coding standards skill for OpenClaw agents. Apply every rule on every coding task, without exception.
 
