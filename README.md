@@ -11,7 +11,7 @@ A comprehensive coding standards skill for OpenClaw agents. Apply every rule on 
 openclaw skill install hardshell
 
 # Or install from GitHub
-openclaw skill install https://github.com/assistentalex/openclaw-hardshell
+openclaw skill install https://github.com/asistent-alex/openclaw-hardshell
 ```
 
 ## What It Covers
@@ -93,4 +93,4 @@ OpenClaw Community
 
 - [OpenClaw Documentation](https://docs.openclaw.ai)
 - [ClawHub](https://clawhub.ai)
-- [GitHub Repository](https://github.com/assistentalex/openclaw-hardshell)
+- [GitHub Repository](https://github.com/asistent-alex/openclaw-hardshell)
