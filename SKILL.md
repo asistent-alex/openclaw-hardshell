@@ -1,10 +1,11 @@
 ---
 name: hardshell
-version: 3.0.0
+version: 3.1.0
 description: Apply when writing, reviewing, refactoring, or designing any code.
 tags: [security, architecture, clean-code, coding, code-review, testing, git, performance]
 always: false
 user-invocable: true
+validation: scripts/validate.sh
 ---
 
 # Hardshell — code quality standards
