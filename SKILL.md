@@ -1,6 +1,6 @@
 ---
 name: hardshell
-version: 3.1.0
+version: 3.2.0
 description: Apply when writing, reviewing, refactoring, or designing any code.
 tags: [security, architecture, clean-code, coding, code-review, testing, git, performance]
 always: false
