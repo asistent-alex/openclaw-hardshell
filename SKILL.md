@@ -22,6 +22,7 @@ If the model supports extended thinking, activate it for architecture decisions.
 - TypeScript / JavaScript project → read `references/languages/typescript.md`
 - Go project → read `references/languages/go.md`
 - Creating or modifying skills → read `references/skill-development.md`
+- Agent behavior, surgical changes, assumption surfacing → read `references/agent-behavior.md`
 
 Load the relevant file before responding on that topic.
 Do not load files unless the task requires them.
@@ -192,6 +193,7 @@ Run before completing any coding task.
 
 - Apply sections 1–3 on every coding task without being asked.
 - Run section 4 checklist before completing any task.
+- When editing existing code or receiving an ambiguous request, read `references/agent-behavior.md` first.
 - Load the relevant `references/` file when the task involves git, testing,
   performance, a specific language, or skill development.
 - **When loading or using a skill:**

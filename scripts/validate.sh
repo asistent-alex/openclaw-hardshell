@@ -39,7 +39,7 @@ fi
 echo "  ✅ .claude/ not tracked"
 
 # 4. All reference files exist
-REFS=("references/git-workflow.md" "references/performance.md" "references/testing.md" "references/skill-development.md" "references/languages/python.md" "references/languages/typescript.md" "references/languages/go.md")
+REFS=("references/agent-behavior.md" "references/git-workflow.md" "references/performance.md" "references/testing.md" "references/skill-development.md" "references/languages/python.md" "references/languages/typescript.md" "references/languages/go.md")
 for ref in "${REFS[@]}"; do
   if [ ! -f "$ref" ]; then
     echo "❌ Missing reference: $ref"
